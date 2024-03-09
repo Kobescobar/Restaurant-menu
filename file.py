@@ -1,12 +1,12 @@
 # Creating the menu list 
-menu = ["Rice", "Plantains", "Burger", "Sushi", "Potatoe"]
+menu = ["Rice", "Plantains", "Burger", "Sushi", "Potatoe", "fish and chips", "beans", "salad"]
 
 # creating the stock dictionary
 stock = {"Rice":15, "Plantains":10, "Burger":20, \
-         "Sushi" : 19, "Potatoe" : 12}
+         "Sushi" : 19, "Potatoe" : 12, "fish and chips" : 30, "beans" : 12, "salad" : 20}
 
 # Creating the price dictionary 
-price = {"Rice" : 35, "Plantains" : 20, "Burger" : 10, "Sushi" : 22, "Potatoe" : 25}
+price = {"Rice" : 35, "Plantains" : 20, "Burger" : 10, "Sushi" : 22, "Potatoe" : 25, "fish and chips" : 20, "beans" : 15, "salad" : 10}
 
 # Initializing total stock to zero
 Total_stock = 0
