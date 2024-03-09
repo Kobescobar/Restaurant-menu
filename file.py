@@ -18,10 +18,24 @@ for keys in menu:
     
     Total_stock +=  item_value
 
+    
+
 # Printing out the value for each menu item 
     print(f" Item value for {keys} is {price[keys]} * {stock[keys]} = \
 {item_value}")
     
 # Printing out the total worth of stock in the cafe    
 print(f" The total worth of stock in the cafe is : {Total_stock} ")
+
+
+while True:
+ customer_order = input(f"Please order from out menu")
+ print(menu)
+
+ if customer_order not in menu:
+    print("please try again and select from the menu")
+    continue
+    
+ else: 
+    break
     
